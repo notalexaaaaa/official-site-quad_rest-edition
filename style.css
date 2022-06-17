@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDGothic:wght@400;700&family=Libre+Bodoni:ital,wght@0,700;1,400;1,500&family=Montserrat:wght@200;500&family=Noto+Sans+SC&family=Noto+Serif+SC&family=Poppins:wght@300;400&family=Radio+Canada:wght@300;400;500&family=Roboto&family=Tapestry&display=swap');
+
+/* Setup */
+* {
+    font-family: 'Roboto', sans-serif;
+    user-select: none;
+}
+
+nav {
+    background-color: transparent;
+    position: none;
+    float: left;
+    width: 98%;
+    height: 50%;
+    letter-spacing: unset;
+    background: rgba(255, 255, 255, 0.768);
+    backdrop-filter: blur(5px);
+    text-align: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    overflow: hidden;
+    top: 320px;
+    margin-top: 76px !important;
+    user-select: none;
+    margin: 0 !important;
+    display: flex;
+    border-top: 5px solid red;
+    border-left: 5px solid green;
+    border-right: 5px solid blue;
+    border-bottom: 5px solid yellow;
+}
+
+a {
+    background-color: transparent;
+    color: black;
+    text-decoration: none;
+}
+
+ion-icon {
+    background: transparent;
+    color: black;
+    font-size: 65px;
+    animation: all .2s ease-in-out;
+    text-align: center;
+    align-items: center;
+}
+
+ion-icon:hover {
+    transform: scale(1.20);
+    animation: all .2s ease-in-out;
+}
+
+ion-icon:active {
+    transform: scale(0.99);
+    animation: all .2s ease-in-out;
+}
+
+span {
+    background-color: transparent;
+}
+
+#first > ion-icon {
+    background: white;
+}
+
+.int{
+    margin-left: 125px !important;
+}
+
+@keyframes colorRotate {
+    from {
+      color: #6666ff;
+    }
+    10% {
+      color: #0099ff;
+    }
+    50% {
+      color: #00ff00;
+    }
+    75% {
+      color: #ff3399;
+    }
+    100% {
+      color: #6666ff;
+    }
+  }
+
+.sourcing {
+    animation: colorRotate 0.5s linear 0s infinite;
+    font-size: 35px;
+    margin-left: 333px;
+    margin-top: -155px !important;
+    user-select: none;
+}
+
+@keyframes colorRotate {
+    from {
+      color: #6666ff;
+    }
+    10% {
+      color: #0099ff;
+    }
+    50% {
+      color: #00ff00;
+    }
+    75% {
+      color: #ff3399;
+    }
+    100% {
+      color: #6666ff;
+    }
+  }
+
+#content-icon {
+    background: #ffffffa3;
+    color: white;
+    width: 15%;
+    height: 25%;
+    text-align: center;
+    align-items: center;
+    margin-left: 1442px;
+    margin-top: 576px;
+}
+
+#cpr {
+  margin-top: -450px;
+  margin-left: -440px;
+}
+
+h1 {
+  background-color: transparent;
+  background: transparent;
+  margin: 0 !important;
+}
+
+
+#none {
+  visibility: hidden;
+}
+
+#content {
+  background: transparent;
+  margin-left: 60%;
+}
+
+#dw{
+  color: black;
+}
+
+.blur-sec {
+  visibility: visible;
+}
+
+#shape:after{
+  background: red;
+  width: 455px;
+  height: 155px;
+  left: 555px;
+  visibility: visible;
+}
+
+.spam {
+  visibility: visible;
+  display: flex;
+  background-color: red;
+  margin-left: -287px;
+}
